@@ -27,19 +27,19 @@ body{
   background-color: #04AA6D;
 }
 h1{
-  color: pblack;
+  color: black;
   text-align:center;
 }
 .my-butn{
   background-color:blue;
   color:white;
-  border: solid 5px black;
-  border-radius: 5px;
+  border: solid 5px skyblue;
+  border-radius: 15px;
   width:22%;
   height: 50px;
   font-size: 20px;
   font-weight: bold;
-  margin-top:10px;
+  margin-top:2px;
 }
 .my-butn:hover{
   background-color:black;
