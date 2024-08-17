@@ -24,6 +24,9 @@ let membership=[
 ["34", "Jo", "Ilsley", "josephineilsley@talktalk.net", "01446 773123"],
     
 ["36", "Penny", "Jarvis", "ppjarvis@ymail.com", "01446 773140"],
+
+["85", "Rosemary", "Jones", "jonesrb1@gmail.com", " "],
+
 ["43", "Sally", "Kennedy", "dalekennedy80@gmail.com", "01446 773936"],
 ["44", "Sue", "Knight", "sknight@tythegston.com", "01446 771012"],
 ["47", "Diana", "Lewis", "dianaspencerlewis@btinternet.com", "01446 772278"],
@@ -46,6 +49,16 @@ let membership=[
 
 ["80", "Rita", "Williams", "ritamjenkins@yahoo.co.uk", "01656 654152"]
 ]
+
+for (let x=1; x<=(membership.length); x++){ 
+
+    let z="btn".concat(x);
+    const y=document.getElementById(z);
+    y.addEventListener("click",function(e){   
+        myCalc(y.innerText);
+        togglePopup();
+        })};
+
 function myCalc(lbl){
     for (let i=0; i<=(membership.length-1); i++){      
     if (lbl==membership[i][1].concat(" ",membership[i][2])){
@@ -64,7 +77,7 @@ function togglePopup(){
 
 }
 
-const btn1=document.getElementById("btn1");
+/*const btn1=document.getElementById("btn1");
 btn1.addEventListener("click",function(e){   
 myCalc(btn1.innerText);
 togglePopup();
@@ -269,4 +282,4 @@ const btn41=document.getElementById("btn41");
 btn41.addEventListener("click",function(e){   
 myCalc(btn41.innerText);
 togglePopup();
-});
+});*/
