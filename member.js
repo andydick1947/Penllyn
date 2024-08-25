@@ -63,6 +63,7 @@ function myCalc(lbl){
     for (let i=0; i<=(membership.length-1); i++){      
     if (lbl==membership[i][1].concat(" ",membership[i][2])){
     person=membership[i];}
+    
     }
 return person;  
 }
@@ -74,5 +75,5 @@ function togglePopup(){
     document.getElementById("teleNum").innerHTML = person[4];
     document.getElementById("bridgeNumb").innerHTML = "Bridge ID "+ person[0];
     document.getElementById("popup-1") .classList.toggle("active");
-
+ 
 }
