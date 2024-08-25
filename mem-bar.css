@@ -35,7 +35,7 @@ width: 50%;
 height:3em;
 float:left;
 border:3px solid skyblue;
-border-radius: 30px;
+border-radius: 10px;
 color:white;
 font-size: 20px;
 font-weight:bold;
@@ -103,15 +103,7 @@ font-weight:bold;
   text-align:center;
   border-radius:50%;
 }
-.popup .my-btn{
-  cursor: pointer;
-  background-color:blue;
-  color: white;
-  font-size: 20px;
-  height: 30px;
-  width: 25%;
 
-}
 .popup.active .overlay{
   display:block;
   }
