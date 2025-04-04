@@ -8,23 +8,18 @@
  
 </head>
 <body>
-  <div class="resbyMnth">
-    <a class="active" href="index.html">Home</a>
-  
-    <a href="res-mnths.html">Results</a>
 
-  </div>
   <br><br><br>
   <div class= "my-grid">
  
     
-    <button type="button" id="butn49" class="butn">6 MAR 25</button>
-    <button type="button" id="butn50" class="butn">13 MAR 25</button>
-    <button type="button" id="butn51" class="butn">20 MAR 25</button>
-    <button type="button" id="butn52" class="butn">27 MAR 25</button>
+    <button type="button" id="butn49" class="btn">5 MAR 26</button>
+    <button type="button" id="butn50" class="btn">12 MAR 26</button>
+    <button type="button" id="butn51" class="btn">19 MAR 26</button>
+    <button type="button" id="butn52" class="btn">26 MAR 26</button>
 
   </div>
-  <div class="target4"></div>
+  <div class="target3"></div>
 
     <script src="res-bar.js"></script>
     <script>
@@ -33,8 +28,9 @@
         ii=x-1;
 if (myResults[ii][2]=="1"){
 bt="butn".concat(x);
-document.getElementById(bt).style.backgroundColor="skyblue";
-document.getElementById(bt).style.borderColor="blue";
+document.getElementById(bt).style.backgroundColor="lightgray";
+
+document.getElementById(bt).style.color="darkgray";
 } 
      let z="butn".concat(x);
      let y=document.getElementById(z);
@@ -62,7 +58,7 @@ document.getElementById(bt).style.borderColor="blue";
      return sk; 
      }
        function ldfle(){
-       const target4El=document.querySelector(".target4");
+       const target3El=document.querySelector(".target3");
       
        fetch(sk)
        
@@ -72,7 +68,7 @@ document.getElementById(bt).style.borderColor="blue";
                }
        })
        .then(selectFile =>{
-       target4El.innerHTML=selectFile;
+       target3El.innerHTML=selectFile;
        });
        }
        
