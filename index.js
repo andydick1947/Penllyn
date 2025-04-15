@@ -147,7 +147,7 @@ function myfees1(){
       div1.innerHTML=fees1;
 }
 function myfees(){
-   const fees='<p class="mytxt">The Fees are paid annually in January. They have been held steady at £50 for the year  to Apr 2025. There is no Table charge for members, however, visitors pay £4 for each session.</p>';
+   const fees='<p class="mytxt">The Fees are paid annually in April. They fees for the year to April 2026 are set at £40. There is no Table charge for members, however, visitors pay £4 for each session.</p>';
       const div=document.createElement("div");
       const mydiv=document.getElementById("mainsect");
       mydiv.appendChild(div);
