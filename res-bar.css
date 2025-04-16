@@ -3,7 +3,6 @@ body{
   background-color:skyblue;
 }
 
-
 h1{
   color: black;
   text-align:center;
@@ -17,7 +16,7 @@ h1{
   height: 50px;
   font-size: 15px;
   font-weight: bold;
-  margin-top:1px;
+  margin-top:2px;
 }
 .butn:hover{
   background-color:black;
@@ -30,49 +29,40 @@ h1{
   width: 90%;
   margin-left:4%;
   margin-right:6%;
-  margin-top:4%;
+  margin-top:2%;
   background-color: skyblue;
   flex-wrap: wrap;
 
 }
-#container6{
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  width:80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  background-color:skyblue;
-  }
-#vid1{
-  width:75%;
-}/**/
 
-@media only screen and (min-width: 300px) and (max-width: 1000px){
+@media only screen and (min-width: 600px) and (max-width: 1000px){
     .butn{
-     width: 30%;
-     font-size: 12px;
+     width: 15%;
     }
-
     .my-grid1{
-      margin-top:0%;
+      margin-top:2%;
      }
-     #vid1{
-      width:90%;
+
+ 
     }
-  }
-    @media only screen and (min-width: 50px) and (max-width: 300px){
+    @media only screen and (min-width: 200px) and (max-width: 600px){
       .butn{
-        width: 24%;
+        width: 50px;
         font-size: 12px;
        }
        .my-grid1{
-        margin-top:0%;
+        margin-top:4%;
        }
-       #vid1{
-        width:100%;
+
       }
 
-      
-
-}
+      @media only screen and (min-width: 20px) and (max-width: 300px){
+        .butn{
+          width: 50%;
+          font-size: 10px;
+         }
+         .my-grid1{
+          margin-top:4%;
+         }
+  
+        }
