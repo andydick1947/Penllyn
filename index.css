@@ -276,7 +276,7 @@ nav {
     #small{
       color: white;
       margin: auto;
-      margin-right:0%;
+      margin-right:15%;
       font-size: 20px;
   }
 }
@@ -284,7 +284,7 @@ nav {
   #small{
     color: white;
     margin: auto;
-    margin-right:0%;
+    margin-right:15%;
     font-size: 14px;
 }
 .mytxt{
