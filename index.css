@@ -106,10 +106,10 @@ color: blue;
 
 .popup{
   background-color: #ffffff;
-  width: 450px;
+  width: 60%;
   padding: 30px 40px;
   position: absolute;
-  transform: translate(-50%,-50%);
+  transform: translate(-40%,-50%);
   left:50%;
   top: 50%;
   border-radius: 8px;
@@ -337,8 +337,8 @@ nav {
 @media only screen and (min-width: 300px) and (max-width: 500px){
 .popup{
   background-color: #ffffff;
-  width: 250px;
-  padding: 30px 40px;
+  width: 80%;
+  padding: 10px 10px;
   position: absolute;
   transform: translate(-50%,-50%);
   left:50%;
@@ -366,8 +366,8 @@ nav {
 }
 
 .popup .p2{
-  font-size: 20px;
-  
+  font-size: 16px;
+    margin: 0 0;
 
 }
 }
@@ -376,8 +376,8 @@ nav {
 @media only screen and (min-width: 200px) and (max-width: 300px){
 .popup{
   background-color: #ffffff;
-  width: 200px;
-  padding: 30px 40px;
+  width: 90%;
+  padding: 2% 2%;
   position: absolute;
   transform: translate(-50%,-50%);
   left:50%;
@@ -405,8 +405,8 @@ nav {
 }
 
 .popup .p2{
-  font-size: 20px;
-  
+  font-size: 16px;
+  margin: 0 0;  
 
 }
 }
