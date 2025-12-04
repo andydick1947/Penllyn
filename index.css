@@ -137,8 +137,15 @@ color: blue;
 .popup .p2{
   font-size: 20px;
   
+}
+
+.myvideo{
+  display: block;
+  margin: auto;
+  width: 99%;
 
 }
+
 @media only screen and (min-width: 200px) and (max-width: 1000px){
   .header {
     display: none;
@@ -334,10 +341,10 @@ nav {
 }
 
 
-@media only screen and (min-width: 300px) and (max-width: 500px){
+@media only screen and (min-width: 300px) and (max-width: 600px){
 .popup{
   background-color: #ffffff;
-  width: 80%;
+  width: 90%;
   padding: 10px 10px;
   position: absolute;
   transform: translate(-50%,-50%);
