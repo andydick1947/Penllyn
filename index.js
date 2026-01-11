@@ -1,4 +1,4 @@
-for (let x=1; x<=9; x++){ 
+for (let x=1; x<=8; x++){ 
   
   let z=`sidebtn${x}`;
   let y=document.getElementById(z);
@@ -34,15 +34,12 @@ for (let x=1; x<=9; x++){
       myres()
    }
 
+
    if(z=="sidebtn7"){ 
-      clean()
-      myarch()
-   }
-   if(z=="sidebtn8"){ 
       clean()
       rbrown()
    }
-   if(z=="sidebtn9"){ 
+   if(z=="sidebtn8"){ 
       clean()
       myscore1()
       myscore()
@@ -172,14 +169,6 @@ function rbrown(){
     div.innerHTML=arc;
 }
 
-function myarch(){
-   const arc='<iframe id="frm1" src="https://andydick1947.github.io/PLArchive/"></iframe>';
-   /*   const arc='<iframe id="frm1" src="TBD.html"></iframe>';*/
-      const div=document.createElement("div");
-      const mydiv=document.getElementById("mainsect");
-      mydiv.appendChild(div);
-      div.innerHTML=arc;
-}
 
 function myscore1(){
    const score7='<p style="color: black;font-weight:bold;font-size:30px;">SCORING<br></p>';
@@ -233,7 +222,7 @@ hamMenu.addEventListener("click", () => {
   offScreenMenu.classList.toggle("active");
 });
 
-for (let x=1; x<=9; x++){ 
+for (let x=1; x<=8; x++){ 
   
    let z=`debtn${x}`;
    let y=document.getElementById(z);
@@ -282,16 +271,11 @@ for (let x=1; x<=9; x++){
     }
  
     if(z=="debtn7"){ 
-       clean()
-       myarch()
-       tgle()
-    }
-    if(z=="debtn8"){ 
       clean()
       rbrown()
       tgle()
    }
-   if(z=="debtn9"){ 
+   if(z=="debtn8"){ 
       clean()
       myscore1()
       myscore()
@@ -305,8 +289,8 @@ for (let x=1; x<=9; x++){
       setTimeout(
          function open(event){
       document.querySelector(".popup").style.display="block";
-   }),
-   1000
+   })
+   
    });
 
 
