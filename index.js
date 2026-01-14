@@ -34,7 +34,6 @@ for (let x=1; x<=8; x++){
       myres()
    }
 
-
    if(z=="sidebtn7"){ 
       clean()
       rbrown()
@@ -171,7 +170,7 @@ function rbrown(){
 
 
 function myscore1(){
-   const score7='<p style="color: black;font-weight:bold;font-size:30px;">SCORING<br></p>';
+   const score7='<p style="color: black;font-weight:bold;font-size:30px;margin-left: 50px;">SCORING<br></p>';
       const div1=document.createElement("div");
       const mydiv1=document.getElementById("mainsect");
       mydiv1.appendChild(div1);
@@ -270,6 +269,7 @@ for (let x=1; x<=8; x++){
        tgle()
     }
  
+
     if(z=="debtn7"){ 
       clean()
       rbrown()
@@ -289,8 +289,8 @@ for (let x=1; x<=8; x++){
       setTimeout(
          function open(event){
       document.querySelector(".popup").style.display="block";
-   })
-   
+   }),
+   1000
    });
 
 
