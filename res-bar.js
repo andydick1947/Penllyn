@@ -129,7 +129,7 @@ sessions[47][1]=0;
 sessions[48][1]=0; /** Mar */
 sessions[49][1]=0;
 sessions[50][1]=0;
-sessions[51][1]=1;
+sessions[51][1]=0;
 
 for (let i=0; i<=51;i++){
   myResults[i][2]=sessions[i][1];
