@@ -80,7 +80,7 @@ for (let yy=0;yy<=11;yy++){
 
 sessions[0][1]=0;
 sessions[1][1]=0;
-sessions[2][1]=1;
+sessions[2][1]=0;
 sessions[3][1]=1;
 sessions[4][1]=1;
 sessions[5][1]=1;
