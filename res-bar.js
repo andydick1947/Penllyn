@@ -66,7 +66,7 @@ wpm[cc-3]=wpm[cc];
 wpm[9]=xx;
 wpm[10]=yy;
 wpm[11]=zz;
-
+console.log
 
 let runtot=[];
     for (let xx=1;xx<=12;xx++){
@@ -112,7 +112,7 @@ sessions[30][1]=0;
 sessions[31][1]=0;
 sessions[32][1]=0; 
 sessions[33][1]=0;
-sessions[34][1]=1; 
+sessions[34][1]=0; 
 sessions[35][1]=1;
 sessions[36][1]=1;
 sessions[37][1]=1;
